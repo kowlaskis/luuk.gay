@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+        <title>{{ title }}</title>
+        <meta name="description" content="{{ description }}" />
+        <meta name="keywords" content="{{ keywords }}" />
+      
+        <link rel="icon" type="image/png" href="https://imagedelivery.net/zhRJ9bxT1Psi4a8Rqze6LA/ed3f251a-755b-4cf1-e244-7c4734eb1500/w=70">
+  
+          <meta property="og:title" content="{{ title }}">
+          <meta property="og:description" content="{{ description }}">
+          <meta property="og:image" content="https://imagedelivery.net/zhRJ9bxT1Psi4a8Rqze6LA/d128ad0e-af0a-4d8a-80ce-c97132104300/w=300">
+          <meta property="og:url" content="https://www.ninetygrooves.com/live/">
+          <meta property="og:type" content="website">
+  
+          <meta name="twitter:card" content="summary_large_image">
+          <meta property="twitter:domain" content="https://www.ninetygrooves.com/live/">
+          <meta property="twitter:url" content="https://www.ninetygrooves.com/live/">
+          <meta name="twitter:title" content="{{ title }}">
+          <meta name="twitter:description" content="{{ description }}">
+          <meta name="twitter:image" content="https://imagedelivery.net/zhRJ9bxT1Psi4a8Rqze6LA/d128ad0e-af0a-4d8a-80ce-c97132104300/w=300">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ninety-red.css') }}">
+</head>
+
+<body>
+
+{% include 'header_livestream.html' %}
+<p class="biography">
+  Current Livestream
+ </p><br>
+<nav class="menu-container-vid">
+  <div style="position: relative; padding-top: 56.25%;">
+    <iframe
+      src="https://customer-kus2wsthiyxyrsye.cloudflarestream.com/3233f972db761f651c1e258b11f63ea7/iframe"
+      style="border: solid 2px palegreen; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+      allow="accelerometer; gyroscope; autoplay; encrypted-media;"
+      allowfullscreen="true"
+    ></iframe>
+  </div><br>
+</nav>
+<p class="biography">
+  PAST LIVESTREAM MOMENTS
+ </p><br>
+ <nav class="menu-container-vid">
+  
+  <div style="position: relative; padding-top: 56.25%;">
+    <iframe
+      src="https://customer-kus2wsthiyxyrsye.cloudflarestream.com/4b0447951310aeba3d294697a9e94cd9/iframe?preload=true&poster=https%3A%2F%2Fcustomer-kus2wsthiyxyrsye.cloudflarestream.com%2F4b0447951310aeba3d294697a9e94cd9%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D32s%26height%3D600"
+      loading="lazy"
+      style="border: solid 2px red; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+      allow="accelerometer; gyroscope; encrypted-media;"
+      allowfullscreen="true"
+    ></iframe>
+  </div><br>
+  <div style="position: relative; padding-top: 56.25%;">
+    <iframe
+      src="https://customer-kus2wsthiyxyrsye.cloudflarestream.com/811e48324c35cffece8529206b567487/iframe?preload=true&poster=https%3A%2F%2Fcustomer-kus2wsthiyxyrsye.cloudflarestream.com%2F811e48324c35cffece8529206b567487%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D20m51s%26height%3D600"
+      loading="lazy"
+      style="border: solid 2px red; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+      allow="accelerometer; gyroscope; encrypted-media;"
+      allowfullscreen="true"
+    ></iframe>
+  </div><br>
+  <div style="position: relative; padding-top: 56.25%;">
+    <iframe
+      src="https://customer-kus2wsthiyxyrsye.cloudflarestream.com/700eefc256a783ef8c37a6e4ee906b9c/iframe?preload=true&poster=https%3A%2F%2Fcustomer-kus2wsthiyxyrsye.cloudflarestream.com%2F700eefc256a783ef8c37a6e4ee906b9c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D2m12s%26height%3D600"
+      loading="lazy"
+      style="border: solid 2px red; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+      allow="accelerometer; gyroscope; encrypted-media;"
+      allowfullscreen="true"
+    ></iframe>
+  </div><br>
+  <div style="position: relative; padding-top: 56.25%;">
+    <iframe
+      src="https://customer-kus2wsthiyxyrsye.cloudflarestream.com/d18990abdf74fbe4ba265089d5a2cfbd/iframe?preload=true&poster=https%3A%2F%2Fcustomer-kus2wsthiyxyrsye.cloudflarestream.com%2Fd18990abdf74fbe4ba265089d5a2cfbd%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+      loading="lazy"
+      style="border: solid 2px red: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+      allow="accelerometer; gyroscope; ; encrypted-media;"
+      allowfullscreen="true"
+    ></iframe>
+  </div>
+  <br>
+  <nav class="menu-container">
+    <a href="https://ninetygrooves.com/" target=”_blank” class="menu-button">
+      To Navigation Menu
+      </a>
+
+</nav>
+ </body>
+{% include 'footer.html' %}
+</html>
