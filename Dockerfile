@@ -11,9 +11,9 @@ WORKDIR /app
 COPY . /app
 
 # Expose the port that the application listens on.
-EXPOSE 8004
+EXPOSE 8007
 
 RUN pip install -r requirements.txt
 
 # Run the application.
-CMD ["gunicorn", "-w 4", "-b :8004", "app:app"]
+CMD ["gunicorn", "-w 4", "-b :8007", "app:app"]
